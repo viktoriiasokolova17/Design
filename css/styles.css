@@ -1,0 +1,17 @@
+body{
+    font-family: Oswald, sans-serif;
+}
+
+.hero-title{
+    font-weight: 900;
+    color:#2544b8;
+}
+
+.button{
+background-color: #616be8;
+color: #ffffff;
+border: none;
+font-weight: 700;
+margin:30px auto 0 0;
+padding: 15px 50px 15px 50px;
+}
