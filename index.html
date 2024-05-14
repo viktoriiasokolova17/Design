@@ -6,66 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Styles -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>Header</header>
 
-    <section>
+    <section class="hero-section">
       <h2>Section 1</h2>
 
-      <h1 class="hero-title">Design Studio</h1>
+      <div class="container">
+        <div class="hero-section-text">
+          <h1 class="hero-title">Design Studio</h1>
 
-      <p>
-        Quickly incentivize impactful action items before tactical collaboration
-        and idea-sharing. Monotonically engage market-driven intellectual
-        capital.
-      </p>
-      <button class="button">Learn more</button>
+          <p class="hero-section-p">
+            Quickly incentivize impactful action items before tactical
+            collaboration and idea-sharing. <br />
+            Monotonically engage market-driven intellectual capital
+          </p>
+          <button class="button">Learn more</button>
+        </div>
+
+        <img
+          class="hero-section-image"
+          src="/images/hero section.jpg"
+          class="hero-section-image"
+          alt="image hero section"
+        />
+      </div>
     </section>
 
-    <section>
+    <section class="advantages-section">
       <h2>Section 2</h2>
 
-      <ul>
-        <li>
-          <h3>Research</h3>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
-          <button>Next</button>
-        </li>
-        <li>
-          <h3>Strategy</h3>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
-          <button>Next</button>
-        </li>
-        <li>
-          <h3>Design</h3>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
-          <button>Next</button>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="visually-hidden">Advantages</h2>
+
+        <ul class="advantages-list">
+          <li class="advantages-item advantages-1">
+            <h3 class="advantages">Research</h3>
+            <p>
+              Accepting all challenges, we offer an individual approach to each
+              client. We never stop learning to achieve the highest results. No
+              appeal or problem will remain unsolved when working with us
+            </p>
+            <button>Next</button>
+          </li>
+          <li class="advantages-item advantages-2">
+            <h3 class="advantages">Strategy</h3>
+            <p>
+              We build long-term relationships with all our clients. Therefore,
+              the quality of our products and services is a priority for us.
+              Adhering to high standards, we confirm our intentions and offer
+              advanced solutions to our customers
+            </p>
+            <button>Next</button>
+          </li>
+          <li class="advantages-item advantages-3">
+            <h3 class="advantages">Design</h3>
+            <p>
+              A detailed analysis and selection of an economically beneficial
+              cooperation option for both parties guarantees that your project
+              will be worked on by an experienced team of professionals
+            </p>
+            <button>Next</button>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section>
