@@ -9,10 +9,18 @@ h1 {
     margin: 200px 0 0;
 }
 
+
+
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 
@@ -40,6 +48,7 @@ ul {
     padding: 15px 50px 15px 50px;
     border-radius: 50px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .hero-section-image {
@@ -73,7 +82,6 @@ ul {
 .advantages-list {
     display: flex;
     padding: 24px 40px;
-    background-color: var(--color-brand-light);
     border-radius: 24px;
     line-height: 1.8;
     font-weight: 600;
@@ -100,3 +108,93 @@ font-weight: 700;
 .advantages-3 {
     background-color: #36b1e1;
 }
+
+/* Features-section */
+.features-h4 {
+    margin: 60px auto 0;
+    text-align: center;
+    color:#2544b8;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.features-h2 {
+    color: #2544b8;
+    line-height: 1.2;
+    font-size: 50px ;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.features-list {
+    display: flex;
+    padding: 24px 40px;
+    border-radius: 24px;
+    line-height: 1.8;
+    font-weight: 600;
+    text-align: center; 
+    width: 100%/3;
+}
+
+.features-item {
+    padding: 30px 30px 30px 30px;
+    color: #3b4776;
+    
+    
+}
+
+.features-img{
+    width: 280px;
+    height: 280px;
+}
+
+.features-h4 {
+    margin: 60px auto 0;
+    text-align: center;
+    color: #2544b8;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+ }
+
+
+ .features-button{
+    background-color: #fff;
+ }
+  .features-blog-post {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+
+  .features-blog-post img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+      height: 400px;
+  }
+
+  .features-h4-blog {
+      color: #2544b8;
+      font-weight: 900;
+      line-height: 1.5;
+      font-size: 30px;
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  .features-p-blog {
+      color: #3b4776;
+      font-weight: 800;
+      line-height: 1.5;
+      font-size: 18px;
+      text-align: center;
+  }
