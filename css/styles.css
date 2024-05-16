@@ -198,3 +198,44 @@ font-weight: 700;
       font-size: 18px;
       text-align: center;
   }
+
+/* Ambition-section  */
+  .ambition-section{
+    background-image: url(../images/Ambition\ section\ background.jpg);
+  }
+
+  .center {
+      width: 500px;
+      text-align: center;
+      margin: 0 400px;
+      padding: 100px;
+  }
+
+  .slider-container {
+      width: 100%;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      white-space: nowrap;
+  }
+
+  .slide {
+      width: 500px;
+      height: 300px;
+      /* Встановіть висоту за вашими потребами */
+      scroll-snap-align: start;
+      display: inline-block;
+    background-color: #f0f0f0;
+  }
+
+  
+
+  .slide-h2 {
+      font-size: 40px;
+  }
+
+  .slide-p {
+      text-align: center;
+      margin: 20px 20px 20px 20px;
+      font-size: 20px;
+      line-height: 1.2;
+  }
