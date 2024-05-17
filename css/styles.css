@@ -219,15 +219,13 @@ font-weight: 700;
   }
 
   .slide {
-      width: 500px;
-      height: 300px;
-      /* Встановіть висоту за вашими потребами */
-      scroll-snap-align: start;
-      display: inline-block;
+    width: 500px;
+    height: 300px;
+    scroll-snap-align: start;
+    display: inline-block;
     background-color: #f0f0f0;
   }
 
-  
 
   .slide-h2 {
       font-size: 40px;
@@ -239,3 +237,55 @@ font-weight: 700;
       font-size: 20px;
       line-height: 1.2;
   }
+
+/*Help-section*/
+
+
+.help-h5 {
+    text-align: center;
+    color: #111111;
+    font-weight: 700;
+    font-size: 24px;
+    width: 850px;
+    margin: 60px auto 0;
+}
+
+.help-p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    width: 650px;
+    margin: 20px auto 0;
+    color: #808080;
+
+}
+
+.help-list{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    grid-template-columns: repeat(2, calc(50% - 10px));
+    min-height: 266px;
+    grid-gap: 20px;
+    display: grid;
+    width: 980px;
+    margin: 30px auto 60px;
+}
+
+.help-item {
+}
+
+.help-img {
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+}
+
+ .help-h6 {
+    font-weight: 700;
+    font-size: 18px;
+    justify-content: center;
+    border: #616be8 5px;
+    display: inline-block;
+    vertical-align: middle;
+ }
