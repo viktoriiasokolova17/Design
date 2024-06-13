@@ -421,4 +421,34 @@ font-weight: 700;
     color: #2544b8;
 }
 
+/* Services-section */
+
+.services-h2 {
+    line-height: 1.1;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 60px 328px 0 0;
+    color: #2544b8;
+}
+
+.services-h4 {
+    line-height: 1.2;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #2544b8;
+}
+
+.services-p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ .services-img {
+     width: 660px;
+     height: 660px;
+     border-radius: 50%;
+ }
 
