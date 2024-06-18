@@ -452,3 +452,87 @@ font-weight: 700;
      border-radius: 50%;
  }
 
+
+ 
+/* Contacts-section */
+
+.contacts-section {
+    background-image: url(../images/Сontacts\ section\ background.jpg); 
+}
+
+.contacts-h2 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 800;
+    padding: 0 50px 0 ;
+    color: #2544b8;
+}
+
+.contacts {
+    display: flex;
+}
+
+
+
+.contacts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0;
+}
+
+.contacts-item {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin-left: 100px;
+    border-left-style: solid;
+    border-left-color: #616be8;
+    border-width: 10px;
+   
+}
+
+
+.contacts-p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0 0;
+    color: #b3b3b3;
+    word-wrap: break-word;
+}
+
+.contacts-h3 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #616be8;
+
+}
+
+.contacts-button-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.contacts-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border-color:#616be8;
+    background-color: #616be8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contacts-button:hover {
+    background-color: #ffffff;
+}
+
